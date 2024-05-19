@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #121212; /* Dark grey background for the body */
+    color: #e0e0e0; /* Light grey text color for general readability */
+}
+
+.container, .content {
+    background: #1e1e1e; /* Slightly lighter grey than the body for the container and content */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1); /* Lighter shadow for a "lifted" effect */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #fff; /* White color for headings */
+}
+
+.event {
+    display: block;
+    background-color: #2c2c2c; /* Even lighter grey for events to differentiate from the container */
+    padding: 10px;
+    border-left: 5px solid #5a5a5a; /* Grey border to the left */
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits text color from parent elements */
+    margin-top: 10px;
+}
+
+.event:hover {
+    background-color: #3a3a3a; /* Slightly lighter grey on hover */
+}
+
+.tag, .title, .date, .info {
+    color: #bbb; /* Brighter grey for important tag elements and titles */
+    font-weight: bold;
+}
+
+.description, .info {
+    margin-top: 5px;
+    color: #ccc; /* Lighter grey for descriptions and info to ensure readability */
+}
+
+.header {
+    background-color: #333; /* Dark grey for header */
+    color: #fff; /* White text */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center; /* Centering the header text */
+}
+
+.section {
+    margin-bottom: 15px; /* Space between sections */
+}
+
+.resource-link {
+    color: #79a6f6; /* Ensuring consistency across all link types */
+    text-decoration: none;
+}
+
+.resource-link:hover {
+    color: #bbd0f8;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+a {
+    color: #79a6f6; /* Changed to a lighter, more vibrant blue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bbd0f8; /* Even lighter on hover */
+}
